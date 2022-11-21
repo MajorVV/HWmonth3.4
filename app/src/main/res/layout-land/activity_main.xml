@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxy"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <Button
+            android:id="@+id/eurasia"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/green"
+            android:text="@string/eurasia" />
+
+
+        <Button
+            android:id="@+id/northAmerica"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/northAmerica"
+            android:text="@string/north_america" />
+
+        <Button
+            android:id="@+id/america"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/America"
+            android:text="@string/south_america" />
+
+        <Button
+            android:id="@+id/africa"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Africa"
+            android:text="@string/africa" />
+
+        <Button
+            android:id="@+id/australia"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Australia"
+            android:text="@string/australia" />
+
+        <Button
+            android:id="@+id/antarctica"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Antarctica"
+            android:text="@string/antarctica" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

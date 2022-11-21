@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HWmonth3.4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eurasia">Eurasia</string>
+    <string name="europa">Europa</string>
+    <string name="north_america">North America</string>
+    <string name="america">America</string>
+    <string name="africa">Africa</string>
+    <string name="australia">Australia</string>
+    <string name="antarctida">Antarctida</string>
+    <string name="antarctica">Antarctica</string>
+    <string name="south_america">south america</string>
+    <string name="beijing">Beijing</string>
+    <string name="china">China</string>
+</resources>

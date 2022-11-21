@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/galaxy"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/llBig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/eurasia"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/green"
+            android:onClick="onClick1"
+            android:text="@string/eurasia" />
+
+
+        <Button
+            android:onClick="onClick3"
+            android:id="@+id/northAmerica"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/northAmerica"
+            android:text="@string/north_america" />
+
+        <Button
+            android:onClick="onClick4"
+            android:id="@+id/southAmerica"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/America"
+            android:text="@string/south_america" />
+
+        <Button
+            android:onClick="onClick5"
+            android:id="@+id/africa"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Africa"
+            android:text="@string/africa" />
+
+        <Button
+            android:id="@+id/australia"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Australia"
+            android:onClick="onClick2"
+            android:text="@string/australia" />
+
+        <Button
+            android:onClick="onClick6"
+            android:id="@+id/antarctica"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/Antarctica"
+            android:text="@string/antarctica" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
